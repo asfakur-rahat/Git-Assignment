@@ -45,7 +45,7 @@ if __name__ == "__main__":
     num = int(input("Enter a number: "))
     print("Factorial of", num, "is:", factorial(num))
     number = int(input("Enter the value of n: "))
-    print("The", n, "th prime number is:", nth_prime(number))
+    print("The", number, "th prime number is:", nth_prime(number))
     fibnum = int(input("Enter a number: "))
     fib_seq = fibonacci(fibnum)
     print("Fibonacci sequence up to", fibnum, "is:", fib_seq)
