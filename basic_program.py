@@ -8,7 +8,7 @@ def square_root(num):
 def fibonacci(n):
     fib_seq = [0, 1]
     while fib_seq[-1] + fib_seq[-2] <= n:
-        fib_seq.append(fib_seq[-1] + fib_seq[-1])
+        fib_seq.append(fib_seq[-1] + fib_seq[-2])
     return fib_seq
 
 def factorial(n):
