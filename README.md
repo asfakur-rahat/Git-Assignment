@@ -1,6 +1,7 @@
 # Git Reset Command
 
-The `git reset` command is used to reset the current branch to a specific state. It has different modes, including `--soft`, `--mixed`, and `--hard`, which determine the extent of changes that are undone.
+The `git reset` command is used to reset the current branch to a specific state. It has different modes, including \
+`--soft`, `--mixed`, and `--hard`, which determine the extent of changes that are undone.
 
 ## `--soft` Option
 
